@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Assignment-7-Q-2';
+  title = 'Hello World ... !!!';
+
+  call(): string {
+    return "Calling Function Inside AppComponent";
+  }
 }
